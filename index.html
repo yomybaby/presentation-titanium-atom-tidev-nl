@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Atom Editor</title>
+    <link rel="stylesheet" type="text/css" href="build/build.css">
+    <link rel="stylesheet" type="text/css" href="//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/octicons/3.3.0/octicons.min.css">
+    <style>
+      .orion {
+        background-image: url('images/orion.jpg')
+      }
+      .atombg{
+        background-image: url('images/atom-pc.jpg')
+      }
+      .titaniumbg{
+        background-image: url('images/titanium-bg.png')
+      }
+      .titaniumpkgbg{
+        background-image: url('images/atom-titanium-bg.png')
+      }
+      .feature{
+        background-image: url('images/feature.gif')
+      }
+      
+      .appcstudio{
+        background-image: url('images/appcstudio_shot.jpg')
+      }
+      .atomio{
+        background-image: url('images/atom_bg.jpg')
+      }
+      .tools{
+        background-image: url('images/tools.gif')
+      }
+      
+      .uppercase {
+          text-transform: uppercase;
+      }
+      
+      .lowercase {
+          text-transform: lowercase;
+      }
+      
+      .capitalize {
+          text-transform: capitalize;
+      }
+      
+      h2 {
+        letter-spacing : 0.1em;
+      }
+      
+      h4 {
+        letter-spacing : 0.1em;
+      }
+      
+      .overlay {
+        width : 940px;
+        height: 480px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -470px;
+        margin-top: -240px;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        z-index: 1
+      }
+      
+    </style>
+  </head>
+  <body>
+    <article>
+      <section>
+        <h1>w/o Appc Studio</h1>
+        <h3></h3>
+        <h4>Jong</h4>
+      </section>
+      <section>
+        <h2>Goedenavond</h2>
+        <h2>Thaks voor je comming</h2>
+      </section>
+      <section><img src="./images/yostudio_logo.svg" width="150px" style="padding-right:50px"><img src="./images/jong.png" width="150px" class="circle"><br>
+        <h2>Jong Eun Lee</h2>
+        <h3><i class="ion-social-twitter"></i>&nbsp;<i class="ion-social-github"></i><a href="https://github.com/yomybaby" target="_blank"> yomybaby</a><br><i class="ion-ios-location"></i> Seoul, South Korea
+        </h3>
+      </section>
+      <section>
+        <h2><span class="fa-3x">7</span>years</h2>
+        <h2 class="fa-2x"><i class="fa fa-laptop"></i> Web<br><i class="fa fa-mobile"></i> Mobile</h2>
+      </section>
+      <section><img src="./images/matrix.jpg" width="400px">
+        <h3>AS or JS</h3>
+      </section>
+      <section>
+        <h2>MVC Concept</h2>
+      </section>
+      <section>
+        <h2 class="bullet">2010</h2><img src="./images/2010worldcup.png" width="150px" class="bullet">
+      </section>
+      <section><img src="./images/lonelypub.png" width="450px"></section>
+      <section>
+        <h2><i class="fa fa-heart fa-4x red"></i></h2>
+        <h2>Titanium</h2>
+        <h2>tidev.kr</h2>
+      </section>
+      <section>
+        <h2 class="fa-5x"><i class="ion-settings"></i></h2>
+        <p><img src="./images/nav.png" width="100px"><img src="./images/dash-256.png" width="100px"><img src="./images/alfred.png" width="100px"></p>
+      </section>
+      <section>
+        <h2 class="fa-3x"><i class="ion-ios-time-outline"></i></h2>
+        <h2>SAVE TIME</h2>
+      </section>
+      <section>
+        <p><img src="./images/tistudio.png" width="230px">&nbsp;<img src="./images/appcstudio2.png" width="200px"></p><br><img src="./images/tieditorrank.png" width="400px">
+        <h4>source : <a href="https://medium.com/all-titanium/the-titanium-developer-environment-86faf55693f7#.kf8b0n68r" target="_blank">medium.com/all-titanium</a></h4>
+      </section>
+      <section>
+        <h2 class="bullet">Two parts</h2>
+        <h3 class="helvetica bullet">1. Why I stopped using Appc Studio?</h3>
+        <h3 class="helvetica bullet">2. How to develop w/o Appc Studio?</h3>
+      </section>
+      <section data-bespoke-backdrop="appcstudio">
+        <h1>Why I stopped using Appc Studio?</h1>
+      </section>
+      <section>
+        <h2 class="bullet">3 reasons</h2>
+      </section>
+      <section>
+        <h3>#1</h3>
+        <h2>Not free</h2><img src="./images/appc_price.png" width="400px">
+      </section>
+      <section>
+        <h3>#2</h3>
+        <h2 class="bullet">Heavy</h2><img src="./images/eclipse_slow.png" width="300px" class="bullet">
+      </section>
+      <section>
+        <h3>#3</h3>
+        <h2 class="bullet">less hackable</h2>
+        <div class="bullet">
+          <h4>"Your First Plugin" on Eclipse.org</h4><img src="./images/eclipse_pugin.png" width="300px">
+        </div>
+      </section>
+      <section>
+        <h3>
+          <ul class="bullet">
+            <li>Free</li>
+            <li>Light</li>
+            <li>Hackable</li>
+          </ul>
+        </h3>
+        <h2 class="bullet">That is..</h2>
+      </section>
+      <section data-bespoke-backdrop="atomio">
+        <h1><img src="./images/Atom_editor_logo.svg" width="40px"> Atom</h1>
+      </section>
+      <section><img src="./images/1m-users.png" width="600px">
+      </section>
+      <section>
+        <h2 class="bullet">perfect? </h2>
+        <h2 class="bullet">not yet...</h2>
+      </section>
+      <section>
+        <h2>The</h2>
+        <h2 class="fa-5x red red_shadow">HACKABLE</h2>
+        <h2>Editor </h2>
+        <h3>in the 21st centry</h3>
+      </section>
+      <section>
+        <ul class="fa-2x">
+          <li class="bullet"> 100% Open Source</li>
+          <li class="bullet"> JavaScript</li>
+          <li class="bullet"> Light core more extensibility</li>
+        </ul>
+      </section>
+      <section><img src="images/about-atom.png" alt="about abtom capture" width="400px">
+      </section>
+      <section>
+        <h2>Appc Studio</h2>
+        <ul>
+          <li>Editor</li>
+          <li>Generate files</li>
+          <li>Settings</li>
+          <li>Build</li>
+        </ul>
+      </section>
+      <section>
+        <h2>#1 Studio as an Editor</h2>
+        <ul>
+          <li>API Autocompletion</li>
+          <li>Open related files</li>
+          <li>snippets</li>
+        </ul>
+      </section>
+      <section data-bespoke-backdrop="titaniumpkgbg">
+        <h1>Atom Package</h1>
+        <h2>for Titanium Alloy</h2>
+      </section>
+      <section>
+        <h2>less typing</h2><img src="./images/typing.gif" width="300px" class="bullet">
+        <h2 class="bullet">more speed</h2>
+      </section>
+      <section>
+        <h2>4 components</h2>
+        <ul>
+          <li>Autocomplete provider</li>
+          <li>Hyperclick provider</li>
+          <li>Open related files</li>
+          <li>Language grammar</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Autocomple Plus</h2>
+        <h3>using Fuzzy matching algorithm</h3><img src="./images/atom-fuzzy-bgc.gif" with="400px">
+      </section>
+      <section>
+        <h2><a href="https://github.com/atom/autocomplete-plus/wiki/Provider-API" target="_blank">Autocomplete provider</a></h2><br><img src="./images/autocomplet_plus_suggestion.png" width="500px"><img src="./images/autocomplete+atom.png" width="500px">
+      </section>
+      <section><img src="./images/apijsca.png" width="600px"></section>
+      <section>
+        <h2 class="fa-2x">👍🏼more atucompletions</h2>
+        <h3>
+          <ul>
+            <li>controller, widget, model name</li>
+            <li>style name in xml and js</li>
+            <li>include app.tss</li>
+            <li>i18n key</li>
+            <li>more detail for value : boolean, font, color, layout..</li>
+          </ul>
+        </h3>
+      </section>
+      <section>
+        <h2>Hyperclick</h2>
+        <h2>by <i style="color:#4c67a2" class="ion-social-facebook"></i></h2><img src="./images/atom-hyperclick-eg.gif" with="400px">
+      </section>
+      <section>
+        <h2><a href="https://github.com/facebooknuclideapm/hyperclick#provider-api" target="_blank">Hyperclick provider</a></h2><img src="./images/hyperclick-provider-api.png" width="600px">
+      </section>
+      <section>
+        <h2>👍🏼More hyperclick</h2>
+        <h3>
+          <ul>
+            <li>Generete if not exist : handler, style, i18n</li>
+            <li>Multiple destination : style, i18n</li>
+          </ul>
+        </h3>
+      </section>
+      <section>
+        <h2>Open related files</h2><img src="./images/related.png" width="450px">
+      </section>
+      <section>
+        <h2>TSS grammar</h2><img src="../images/tss_grammar.png" width="400px">
+      </section>
+      <section>
+        <h2>TSS grammar source</h2><img src="../images/tssgrammar_source.png" width="600px">
+      </section>
+      <section>
+        <h2>#2 Studio for generating files</h2>
+        <ul>
+          <li>project</li>
+          <li>alloy controllers, widget, model..</li>
+        </ul>
+      </section>
+      <section>
+        <h2>ti-create pkg</h2><img src="./images/ti-create.png" width="300px">
+      </section>
+      <section>
+        <h2>#3 Studio for building ipa/apk</h2>
+        <pre style="font-size:0.6em"><code>ti build --platform ios --target device --pp-uuid bef5-too-long-uuid-you-can-not-remember-e260f3e7a444 </code></pre>
+      </section>
+      <section>
+        <h2>tn</h2><img src="./images/tn.png" width="500px">
+        <pre><code>tn idevice
+</code></pre>
+      </section>
+      <section>
+        <h2>too many recipes</h2><img src="./images/tn-recipes.png" width="200px">
+      </section>
+      <section>
+        <h2>autocomplete script<br/>for tn CLI</h2><a href="https://git.io/vVsEN" target="_blank">git.io/vVsEN</a>
+      </section>
+      <section>
+        <h2>#4 Studio for settings & updating</h2>
+        <pre><code>ti setup
+appc ti sdk install
+
+</code></pre>
+      </section>
+      <section>
+        <h1>Additional Tips</h1>
+      </section>
+      <section>
+        <h2>Developing Pkgs</h2>
+        <pre><code>apm dev titanium-alloy
+atom -d .
+</code></pre>
+      </section>
+      <seciton>
+        <h3>for developing Atom pkg</h3>
+        <h2>Reloading package</h2>
+        <ul>
+          <li>ctrl + alt + cmd + L</li>
+          <li><a href="https://atom.io/packages/atom-hot-package-loader" target="_blank">Atom Hot Package Loader </a></li>
+        </ul>
+      </seciton>
+      <section>
+        <h2>More Pkgs</h2>
+        <ul>
+          <li><a href="https://atom.io/packages/expand-region" target="_blank">expand-region</a></li>
+          <li><a href="https://atom.io/packages/atom-beautify" target="_blank">atom-beautify</a></li>
+        </ul>
+      </section>
+      <section data-bespoke-backdrop="tools">
+        <h1>Making a tool</h1>
+      </section>
+      <section>
+        <h2>Time needed to develop </h2>
+        <h3 class="fa-2x">vs.</h3>
+        <h2>Time saved after development</h2>
+      </section>
+      <section>
+        <h2>tishadow, tn, ticons..</h2><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I have TiShadow running 4-5 hrs/day. Probably saves me an hour daily, thanks <a href="https://twitter.com/davidbankier">@davidbankier</a>! <a href="https://twitter.com/hashtag/appcelerator?src=hash">#appcelerator</a> <a href="https://twitter.com/hashtag/tidev?src=hash">#tidev</a> <a href="https://t.co/FtDVWWJJD7">https://t.co/FtDVWWJJD7</a></p>&mdash; Adam Paxton (@adampax) <a href="https://twitter.com/adampax/status/714448456467791872">March 28, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </section>
+      <section data-bespoke-backdrop="orion">
+        <h2>Let's hack!</h2>
+        <h1>Dankjewel</h1><br>
+        <h3>Feel free to contact me. @yomybaby</h3>
+      </section>
+    </article>
+    <script src="build/build.js"></script>
+  </body>
+</html>
